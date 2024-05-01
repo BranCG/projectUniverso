@@ -83,29 +83,4 @@ function verificar10()
     cuadrado.style.backgroundSize = "cover"; // Opcional: "contain" para ajustar la imagen manteniendo su relación de aspecto
     alert("TEN CUIDADO, tenemos un SATELITE ORBITANDO!");
 };
-    
-function verificar11() 
-{
-    document.getElementById("cuadradoVerde11").style.backgroundColor = "green"
-    alert("ESTE ES EL CUADRADO NUMERO 12")
-};
-    
-function verificar12() 
-{
-    document.getElementById("cuadradoVerde12").style.backgroundColor = "green"
-    alert("ESTE ES EL CUADRADO NUMERO 13")
-};
-    
-function verificar13() 
-{
-    document.getElementById("cuadradoVerde13").style.backgroundColor = "green"
-    alert("ESTE ES EL CUADRADO NUMERO 14")
-};
-    
-function verificar14() 
-{
-    document.getElementById("cuadradoVerde14").style.backgroundColor = "green"
-    alert("ESTE ES EL CUADRADO NUMERO 15")
-};
-    
 
