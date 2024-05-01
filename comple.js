@@ -1,4 +1,27 @@
-//VERIFICACION DE VERDES (1280 X 1024)
+//LOGICA DE RANDOM PARA CAPA DE ESTRELLAS
+const COLORS = ["#fff2", "#fff4", "#fff7", "#fff", "#fff"]
+
+const generateSpaceLayer = (size, selector, totalStarts, duration) => {
+    const layer = [];
+    for (let i = 0; i < totalStarts; i++){
+        const color = COLORS[Math.floor(Math.random()* COLORS.length)];
+        const x= Math.floor(Math.random() * 100);
+        const y= Math.floor(Math.random() * 100);
+        layer.push(`${x}vw ${y}vh 0 ${color}, ${x}vw ${y + 100}vh 0 ${color}`);
+    }
+    const container = document.querySelector(selector);
+    container.style.setProperty("--space-layer", layer.join(","));
+    container.style.setProperty("--size", size);
+    container.style.setProperty("--duration", duration);
+};
+
+generateSpaceLayer("1px", ".space-1", 200, "20s")
+generateSpaceLayer("2px", ".space-2", 100, "15s")
+generateSpaceLayer("3px", ".space-3" , 25, "10s") 
+
+
+
+//VERIFICACION DE OBJETOS (1280 X 1024)
 function verificar() {
     let cuadrado = document.getElementById("TIERRA");
     cuadrado.style.backgroundImage = "url('https://i.pinimg.com/736x/e9/70/f6/e970f64f231f8aef9eba8f63814a6f35.jpg')";
