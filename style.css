@@ -15,6 +15,7 @@ body{
     transform: scale(1.5);
     transition: 2s;
     border: 2px;
+    border-color: yellow;
 }
 
 

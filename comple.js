@@ -39,39 +39,49 @@ function verificar4()
 function verificar5() 
 {
     let cuadrado = document.getElementById("ESTRELLAS");
-    cuadrado.style.backgroundImage = "url('https://i.pinimg.com/564x/5f/c7/3d/5fc73dbc85e18d7164f51e6d408548cd.jpg')";
+    cuadrado.style.backgroundImage = "url('https://i.pinimg.com/564x/7e/2d/1e/7e2d1ed54330874ae07f2810de8a31e4.jpg')";
     cuadrado.style.backgroundSize = "cover"; // Opcional: "contain" para ajustar la imagen manteniendo su relación de aspecto
     alert("Haz chocado con una ESTRELLA!");
 };
     
 function verificar6() 
 {
-    document.getElementById("cuadradoVerde6").style.backgroundColor = "green"
-    alert("ESTE ES EL CUADRADO NUMERO 7")
+    let cuadrado = document.getElementById("SATURNO");
+    cuadrado.style.backgroundImage = "url('https://i.pinimg.com/564x/cb/46/0f/cb460fe0a9f09cb05ba8a8cd452ecb44.jpg')";
+    cuadrado.style.backgroundSize = "cover"; // Opcional: "contain" para ajustar la imagen manteniendo su relación de aspecto
+    alert("Aqui esta SATURNO!");
 };
     
 function verificar7() 
 {
-    document.getElementById("cuadradoVerde7").style.backgroundColor = "green"
-    alert("ESTE ES EL CUADRADO NUMERO 8")
+    let cuadrado = document.getElementById("URANO");
+    cuadrado.style.backgroundImage = "url('https://i.pinimg.com/736x/d8/06/f9/d806f9ab1abda97f806902c40c085155.jpg')";
+    cuadrado.style.backgroundSize = "cover"; // Opcional: "contain" para ajustar la imagen manteniendo su relación de aspecto
+    alert("el elegante URANO!");
 };
     
 function verificar8() 
 {
-    document.getElementById("cuadradoVerde8").style.backgroundColor = "green"
-    alert("ESTE ES EL CUADRADO NUMERO 9")
+    let cuadrado = document.getElementById("NEPTUNO");
+    cuadrado.style.backgroundImage = "url('https://i.pinimg.com/564x/19/3e/71/193e717cc465e9790a3fd80269b3cfb4.jpg')";
+    cuadrado.style.backgroundSize = "cover"; // Opcional: "contain" para ajustar la imagen manteniendo su relación de aspecto
+    alert("Maravilloso NEPTUNO");
 };
     
 function verificar9() 
 {
-    document.getElementById("cuadradoVerde9").style.backgroundColor = "green"
-    alert("ESTE ES EL CUADRADO NUMERO 10")
+    let cuadrado = document.getElementById("SOL");
+    cuadrado.style.backgroundImage = "url('https://i.pinimg.com/564x/68/ce/7e/68ce7e9054d5bb9a5f52361afa7e8564.jpg')";
+    cuadrado.style.backgroundSize = "cover"; // Opcional: "contain" para ajustar la imagen manteniendo su relación de aspecto
+    alert("NUESTRO HERMOSO SOL!");
 };
     
 function verificar10() 
 {
-    document.getElementById("cuadradoVerde10").style.backgroundColor = "green"
-    alert("ESTE ES EL CUADRADO NUMERO 11")
+    let cuadrado = document.getElementById("SATELITE");
+    cuadrado.style.backgroundImage = "url('https://i.pinimg.com/564x/3a/2f/5d/3a2f5d54e0a7cdde17cc6ee61d2d5f78.jpg')";
+    cuadrado.style.backgroundSize = "cover"; // Opcional: "contain" para ajustar la imagen manteniendo su relación de aspecto
+    alert("TEN CUIDADO, tenemos un SATELITE ORBITANDO!");
 };
     
 function verificar11() 
