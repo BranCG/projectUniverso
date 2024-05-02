@@ -22,7 +22,7 @@ generateSpaceLayer("3px", ".space-3" , 25, "10s")
 
 //VANEGADOR 
 function queHacer(){
-        alert("<!>Solo recuerda los cuadros que cambiaron de color y se movieron. ¡DESCUBRE que hay en ellos posandote y conoce detalles haciendo click!");
+        alert("(!) ¡Solo navega por el espacio, busca los recuadros que resaltan y conocelos!");
 }
 
 function proposito(){

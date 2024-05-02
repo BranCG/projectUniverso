@@ -357,7 +357,7 @@
 .cuadradoNoClick:hover{
     border-radius: 50%;
     transform: scale(1.5);
-    transition: 3s;
+    transition: 1s;
     border-color:red
 }
 
@@ -383,7 +383,7 @@
 
 
 
-/* PARA ESTRELLAS */
+/* PARA FONDO ESTRELLAS */
 body{
     background: #171717;
 }
