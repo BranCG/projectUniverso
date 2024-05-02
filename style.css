@@ -1,4 +1,4 @@
-.cuadradoClick {
+.generarCapaEspacio {
     width: 80px; 
     height: 80px; 
     border: 1px solid;
@@ -8,14 +8,14 @@
 
 }
 
-.cuadradoClick:hover{
+.generarCapaEspacio:hover{
     border-radius: 50%;
     transform: scale(4.5);
     transition: 1s;
     border-color:white;
 }
 /**TIERRA**/
-.cuadradoClickTIERRA {
+.generarCapaEspacioTIERRA {
     width: 80px; 
     height: 80px; 
     border: 1px solid;
@@ -29,7 +29,7 @@
     background-size: cover;
 }
 
-.cuadradoClickTIERRA:hover{
+.generarCapaEspacioTIERRA:hover{
     border-radius: 50%;
     transform: scale(4.5);
     transition: 1s;
@@ -40,7 +40,7 @@
 
 
 /**MARTE**/
-.cuadradoClickMARTE {
+.generarCapaEspacioMARTE {
     width: 80px; 
     height: 80px; 
     border: 1px solid;
@@ -50,7 +50,7 @@
 
 }
 
-.cuadradoClickMARTE:hover{
+.generarCapaEspacioMARTE:hover{
     border-radius: 50%;
     transform: scale(4.5);
     transition: 1s;
@@ -59,7 +59,7 @@
     background-size: cover;
 }
 /**MERCURIO**/
-.cuadradoClickMERCURIO {
+.generarCapaEspacioMERCURIO {
     width: 80px; 
     height: 80px; 
     border: 1px solid;
@@ -69,7 +69,7 @@
 
 }
 
-.cuadradoClickMERCURIO:hover{
+.generarCapaEspacioMERCURIO:hover{
     border-radius: 50%;
     transform: scale(4.5);
     transition: 1s;
@@ -78,7 +78,7 @@
     background-size: cover;
 }
 /**VENUS**/
-.cuadradoClickVENUS {
+.generarCapaEspacioVENUS {
     width: 80px; 
     height: 80px; 
     border: 1px solid;
@@ -88,7 +88,7 @@
 
 }
 
-.cuadradoClickVENUS:hover{
+.generarCapaEspacioVENUS:hover{
     border-radius: 50%;
     transform: scale(4.5);
     transition: 1s;
@@ -97,7 +97,7 @@
     background-size: cover;
 }
 /**GALAXIAANDROMEDA**/
-.cuadradoClickGALAXIAANDROMEDA {
+.generarCapaEspacioGALAXIAANDROMEDA {
     width: 80px; 
     height: 80px; 
     border: 1px solid;
@@ -107,7 +107,7 @@
 
 }
 
-.cuadradoClickGALAXIAANDROMEDA:hover{
+.generarCapaEspacioGALAXIAANDROMEDA:hover{
     border-radius: 50%;
     transform: scale(4.5);
     transition: 1s;
@@ -116,7 +116,7 @@
     background-size: cover;
 }
 /**VIALACTEA**/
-.cuadradoClickVIALACTEA {
+.generarCapaEspacioVIALACTEA {
     width: 80px; 
     height: 80px; 
     border: 1px solid;
@@ -126,7 +126,7 @@
 
 }
 
-.cuadradoClickVIALACTEA:hover{
+.generarCapaEspacioVIALACTEA:hover{
     border-radius: 50%;
     transform: scale(4.5);
     transition: 1s;
@@ -135,7 +135,7 @@
     background-size: cover;
 }
 /**JUPITER**/
-.cuadradoClickJUPITER {
+.generarCapaEspacioJUPITER {
     width: 80px; 
     height: 80px; 
     border: 1px solid;
@@ -145,7 +145,7 @@
 
 }
 
-.cuadradoClickJUPITER:hover{
+.generarCapaEspacioJUPITER:hover{
     border-radius: 50%;
     transform: scale(4.5);
     transition: 1s;
@@ -154,7 +154,7 @@
     background-size: cover;
 }
 /**ESTRELLAS**/
-.cuadradoClickESTRELLAS {
+.generarCapaEspacioESTRELLAS {
     width: 80px; 
     height: 80px; 
     border: 1px solid;
@@ -164,7 +164,7 @@
 
 }
 
-.cuadradoClickESTRELLAS:hover{
+.generarCapaEspacioESTRELLAS:hover{
     border-radius: 50%;
     transform: scale(4.5);
     transition: 1s;
@@ -173,7 +173,7 @@
     background-size: cover;
 }
 /**SATURNO**/
-.cuadradoClickSATURNO {
+.generarCapaEspacioSATURNO {
     width: 80px; 
     height: 80px; 
     border: 1px solid;
@@ -183,7 +183,7 @@
 
 }
 
-.cuadradoClickSATURNO:hover{
+.generarCapaEspacioSATURNO:hover{
     border-radius: 50%;
     transform: scale(4.5);
     transition: 1s;
@@ -192,7 +192,7 @@
     background-size: cover;
 }
 /**URANO**/
-.cuadradoClickURANO {
+.generarCapaEspacioURANO {
     width: 80px; 
     height: 80px; 
     border: 1px solid;
@@ -202,7 +202,7 @@
 
 }
 
-.cuadradoClickURANO:hover{
+.generarCapaEspacioURANO:hover{
     border-radius: 50%;
     transform: scale(4.5);
     transition: 1s;
@@ -211,7 +211,7 @@
     background-size: cover;
 }
 /**NEPTUNO**/
-.cuadradoClickNEPTUNO{
+.generarCapaEspacioNEPTUNO{
     width: 80px; 
     height: 80px; 
     border: 1px solid;
@@ -221,7 +221,7 @@
 
 }
 
-.cuadradoClickNEPTUNO:hover{
+.generarCapaEspacioNEPTUNO:hover{
     border-radius: 50%;
     transform: scale(4.5);
     transition: 1s;
@@ -230,7 +230,7 @@
     background-size: cover;
 }
 /**SOL**/
-.cuadradoClickSOL{
+.generarCapaEspacioSOL{
     width: 80px; 
     height: 80px; 
     border: 1px solid;
@@ -240,7 +240,7 @@
 
 }
 
-.cuadradoClickSOL:hover{
+.generarCapaEspacioSOL:hover{
     border-radius: 50%;
     transform: scale(4.5);
     transition: 1s;
@@ -249,7 +249,7 @@
     background-size: cover;
 }
 /**SATELITE**/
-.cuadradoClickSATELITE{
+.generarCapaEspacioSATELITE{
     width: 80px; 
     height: 80px; 
     border: 1px solid;
@@ -259,7 +259,7 @@
 
 }
 
-.cuadradoClickSATELITE:hover{
+.generarCapaEspacioSATELITE:hover{
     border-radius: 50%;
     transform: scale(4.5);
     transition: 1s;
@@ -268,7 +268,7 @@
     background-size: cover;
 }
 /**GALAXIA TRIANGULO**/
-.cuadradoClickTRIANGULO{
+.generarCapaEspacioTRIANGULO{
     width: 80px; 
     height: 80px; 
     border: 1px solid;
@@ -278,7 +278,7 @@
 
 }
 
-.cuadradoClickTRIANGULO:hover{
+.generarCapaEspacioTRIANGULO:hover{
     border-radius: 50%;
     transform: scale(4.5);
     transition: 1s;
@@ -287,7 +287,7 @@
     background-size: cover;
 }
 /**GALAXIA SOMBRERO**/
-.cuadradoClickSOMBRERO{
+.generarCapaEspacioSOMBRERO{
     width: 80px; 
     height: 80px; 
     border: 1px solid;
@@ -297,7 +297,7 @@
 
 }
 
-.cuadradoClickSOMBRERO:hover{
+.generarCapaEspacioSOMBRERO:hover{
     border-radius: 50%;
     transform: scale(4.5);
     transition: 1s;
@@ -306,7 +306,7 @@
     background-size: cover;
 }
 /**GALAXIA REMOLINO**/
-.cuadradoClickREMOLINO{
+.generarCapaEspacioREMOLINO{
     width: 80px; 
     height: 80px; 
     border: 1px solid;
@@ -316,7 +316,7 @@
 
 }
 
-.cuadradoClickREMOLINO:hover{
+.generarCapaEspacioREMOLINO:hover{
     border-radius: 50%;
     transform: scale(4.5);
     transition: 1s;
@@ -325,7 +325,7 @@
     background-size: cover;
 }
 /**BASURA ESPACIAL**/
-.cuadradoClickBASURA{
+.generarCapaEspacioBASURA{
     width: 80px; 
     height: 80px; 
     border: 1px solid;
@@ -335,7 +335,7 @@
 
 }
 
-.cuadradoClickBASURA:hover{
+.generarCapaEspacioBASURA:hover{
     border-radius: 50%;
     transform: scale(4.5);
     transition: 1s;

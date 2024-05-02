@@ -1,5 +1,5 @@
 //LOGICA DE RANDOM PARA CAPA DE ESTRELLAS.
-const COLORS = ["#fff2", "#fff4", "#fff7", "#fff", "#fff"]
+const COLORS = ["#fff2", "#fff4", "#fff7", "#fff", "#fff", "#f77700", "#3606bb"]
 
 const generateSpaceLayer = (size, selector, totalStarts, duration) => {
     const layer = [];
@@ -15,9 +15,9 @@ const generateSpaceLayer = (size, selector, totalStarts, duration) => {
     container.style.setProperty("--duration", duration);
 };
 
-generateSpaceLayer("1px", ".space-1", 200, "20s")
-generateSpaceLayer("2px", ".space-2", 100, "15s")
-generateSpaceLayer("3px", ".space-3" , 25, "10s") 
+generateSpaceLayer("1px", ".space-1", 200, "21s")
+generateSpaceLayer("2px", ".space-2", 100, "14s")
+generateSpaceLayer("4px", ".space-3" , 25, "7s") 
 
 
 //VANEGADOR 
