@@ -20,90 +20,68 @@ generateSpaceLayer("2px", ".space-2", 100, "15s")
 generateSpaceLayer("3px", ".space-3" , 25, "10s") 
 
 
+//VANEGADOR 
+function queHacer(){
+        alert("<!>Solo recuerda los cuadros que cambiaron de color y se movieron. ¡DESCUBRE que hay en ellos haciendo click! (POSATE ENCIMA DE UN CUADRO Y CONFIA EN LOS BORDER VERDES)..");
+}
+
+function proposito(){
+        alert("<!>Este es un proyecto educativo sobre el espacio para practicar habilidades en HTML, CSS y JS. Esta plataforma está diseñada para que los niños puedan aprender de forma interactiva sobre planetas, estrellas, galaxias y más. Aunque es un sistema básico, me ha permitido profundizar en la programación frontend y crear una experiencia educativa y divertida para los más niños y jovenes.");
+}
+
+
 
 //VERIFICACION DE OBJETOS (1280 X 1024)
 function verificar() {
-    let cuadrado = document.getElementById("TIERRA");
-    cuadrado.style.backgroundImage = "url('https://i.pinimg.com/736x/e9/70/f6/e970f64f231f8aef9eba8f63814a6f35.jpg')";
-    cuadrado.style.backgroundSize = "cover"; // Opcional: "contain" para ajustar la imagen manteniendo su relación de aspecto
-    alert("Encontraste al PLANETA TIERRA!");
+    alert("La Tierra: Nuestro hogar, el único planeta conocido que alberga vida. Tiene una atmósfera única que permite la existencia de agua en estado líquido, un requisito clave para la vida tal como la conocemos.");
 };
 
 function verificar1() {
-    let cuadrado = document.getElementById("MERCURIO");
-    cuadrado.style.backgroundImage = "url('https://i.pinimg.com/564x/2c/fc/bd/2cfcbd70b36129aced180d3c69b32d3c.jpg')";
-    cuadrado.style.backgroundSize = "cover"; // Opcional: "contain" para ajustar la imagen manteniendo su relación de aspecto
-    alert("Encontraste a MERCURIO!");
+    alert("Mercurio: El planeta más cercano al Sol y el más pequeño del sistema solar. Tiene una superficie rocosa y está cubierto de cráteres. Su temperatura varía enormemente debido a la falta de atmósfera para retener el calor.");
 };
 
 function verificar2() {
-    let cuadrado = document.getElementById("VENUS");
-    cuadrado.style.backgroundImage = "url('https://i.pinimg.com/564x/c2/92/66/c29266e0df1ac1121b42102e326777c9.jpg')";
-    cuadrado.style.backgroundSize = "cover"; // Opcional: "contain" para ajustar la imagen manteniendo su relación de aspecto
-    alert("Encontraste a VENUS!");
+    alert("Venus: Conocido como el planeta hermano de la Tierra debido a su tamaño y composición similares, aunque su atmósfera es extremadamente densa y está compuesta principalmente de dióxido de carbono, lo que crea un efecto invernadero descontrolado y una temperatura de superficie extremadamente alta.");
 };
     
-function verificar3() 
-{
-    let cuadrado = document.getElementById("MARTE");
-    cuadrado.style.backgroundImage = "url('https://i.pinimg.com/564x/7b/39/ef/7b39ef2a94a38c06ae4da5a406a693a2.jpg')";
-    cuadrado.style.backgroundSize = "cover"; // Opcional: "contain" para ajustar la imagen manteniendo su relación de aspecto
-    alert("Encontraste a MARTE!");
+function verificar3() {
+    alert("Marte: Conocido como el planeta rojo debido a su color característico, Marte tiene una atmósfera delgada y fría. Ha capturado la imaginación de las personas como un lugar donde podría existir vida pasada o presente.");
 };
     
-function verificar4() 
-{
-    let cuadrado = document.getElementById("JUPITER");
-    cuadrado.style.backgroundImage = "url('https://i.pinimg.com/564x/5f/c7/3d/5fc73dbc85e18d7164f51e6d408548cd.jpg')";
-    cuadrado.style.backgroundSize = "cover"; // Opcional: "contain" para ajustar la imagen manteniendo su relación de aspecto
-    alert("Encontraste a JUPITER!");
+function verificar4() {
+    alert("Júpiter: El planeta más grande del sistema solar, es un gigante gaseoso compuesto principalmente de hidrógeno y helio. Tiene una gran mancha roja, una tormenta gigante que ha estado activa durante siglos.");
 };
     
-function verificar5() 
-{
-    let cuadrado = document.getElementById("ESTRELLAS");
-    cuadrado.style.backgroundImage = "url('https://i.pinimg.com/564x/7e/2d/1e/7e2d1ed54330874ae07f2810de8a31e4.jpg')";
-    cuadrado.style.backgroundSize = "cover"; // Opcional: "contain" para ajustar la imagen manteniendo su relación de aspecto
-    alert("Haz chocado con una ESTRELLA!");
+function verificar5() {
+    alert("Las estrellas: Las estrellas son gigantescas esferas de gas caliente que brillan con luz propia debido a la fusión nuclear en sus núcleos. Son los bloques de construcción fundamentales del universo, ya que generan y dispersan elementos químicos vitales para la formación de planetas, vida y todo lo que nos rodea. Las estrellas vienen en una variedad de tamaños, colores y edades, desde las enanas rojas más pequeñas y frías hasta las supergigantes azules más grandes y calientes. A lo largo de sus vidas, las estrellas experimentan cambios dramáticos, desde su nacimiento en nubes de gas y polvo hasta su eventual muerte en forma de enanas blancas, estrellas de neutrones o incluso agujeros negros, dejando un legado cósmico que perdura a lo largo de las edades.");
 };
     
-function verificar6() 
-{
-    let cuadrado = document.getElementById("SATURNO");
-    cuadrado.style.backgroundImage = "url('https://i.pinimg.com/564x/cb/46/0f/cb460fe0a9f09cb05ba8a8cd452ecb44.jpg')";
-    cuadrado.style.backgroundSize = "cover"; // Opcional: "contain" para ajustar la imagen manteniendo su relación de aspecto
-    alert("Aqui esta SATURNO!");
-};
-    
-function verificar7() 
-{
-    let cuadrado = document.getElementById("URANO");
-    cuadrado.style.backgroundImage = "url('https://i.pinimg.com/736x/d8/06/f9/d806f9ab1abda97f806902c40c085155.jpg')";
-    cuadrado.style.backgroundSize = "cover"; // Opcional: "contain" para ajustar la imagen manteniendo su relación de aspecto
-    alert("el elegante URANO!");
-};
-    
-function verificar8() 
-{
-    let cuadrado = document.getElementById("NEPTUNO");
-    cuadrado.style.backgroundImage = "url('https://i.pinimg.com/564x/19/3e/71/193e717cc465e9790a3fd80269b3cfb4.jpg')";
-    cuadrado.style.backgroundSize = "cover"; // Opcional: "contain" para ajustar la imagen manteniendo su relación de aspecto
-    alert("Maravilloso NEPTUNO");
-};
-    
-function verificar9() 
-{
-    let cuadrado = document.getElementById("SOL");
-    cuadrado.style.backgroundImage = "url('https://i.pinimg.com/564x/68/ce/7e/68ce7e9054d5bb9a5f52361afa7e8564.jpg')";
-    cuadrado.style.backgroundSize = "cover"; // Opcional: "contain" para ajustar la imagen manteniendo su relación de aspecto
-    alert("NUESTRO HERMOSO SOL!");
-};
-    
-function verificar10() 
-{
-    let cuadrado = document.getElementById("SATELITE");
-    cuadrado.style.backgroundImage = "url('https://i.pinimg.com/564x/3a/2f/5d/3a2f5d54e0a7cdde17cc6ee61d2d5f78.jpg')";
-    cuadrado.style.backgroundSize = "cover"; // Opcional: "contain" para ajustar la imagen manteniendo su relación de aspecto
-    alert("TEN CUIDADO, tenemos un SATELITE ORBITANDO!");
+function verificar6() {
+    alert("Saturno: Conocido por sus impresionantes anillos, Saturno es otro gigante gaseoso. Sus anillos están compuestos principalmente de partículas de hielo y roca, y son uno de los espectáculos más impresionantes del sistema solar.");
 };
 
+function verificar7() {
+    alert("Urano: Un gigante de hielo con un eje de rotación inclinado casi 90 grados respecto a su plano orbital, lo que hace que gire de lado. Tiene anillos y una serie de lunas interesantes.");
+};
+    
+function verificar8() {
+    alert("Neptuno: El planeta más alejado del Sol, es otro gigante de hielo. Tiene vientos extremadamente rápidos y una gran mancha oscura similar a la mancha roja de Júpiter.");
+};
+
+function verificar9() {
+    alert("El Sol: En el vasto universo, el sol se alza como una estrella única y poderosa, irradiando luz y calor a través del espacio vacío. Su presencia es la fuente de vida en nuestro sistema solar, proporcionando energía a todos los planetas que lo orbitan. Con su brillante resplandor, el sol nos recuerda la inmensidad y la belleza del cosmos, y nos invita a reflexionar sobre nuestro lugar en el universo.");
+};
+
+function verificar10() {
+
+    alert("Los satélites, tanto naturales como artificiales, juegan un papel crucial en nuestra comprensión y exploración del espacio. Desde la Luna que ilumina nuestras noches hasta los satélites de comunicación que nos conectan globalmente, estos cuerpos en órbita nos ofrecen una ventana al universo y nos permiten realizar avances tecnológicos y científicos que de otra manera serían imposibles. Su presencia en el espacio nos recuerda la vastedad y la belleza de nuestro cosmos, inspirándonos a seguir explorando y descubriendo los misterios del universo.");
+};
+
+function verificar11() {
+    alert("Galaxia de Andrómeda (M31): Es la galaxia más grande del Grupo Local, que también incluye a la Vía Láctea. Es una galaxia espiral similar a la Vía Láctea y se encuentra a unos 2.5 millones de años luz de distancia. En el futuro, se espera que Andrómeda y la Vía Láctea colisionen y se fusionen en una sola galaxia.");
+};
+
+
+function verificar12() {
+    alert("Vía Láctea: Nuestra galaxia, en la que se encuentra el sistema solar. Es una galaxia espiral barrada que contiene entre 200 y 400 mil millones de estrellas, incluido nuestro Sol. La Vía Láctea tiene varios brazos espirales, y el sistema solar se encuentra en uno de ellos, llamado el Brazo de Orión.");
+};
