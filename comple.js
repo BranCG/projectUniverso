@@ -1,4 +1,4 @@
-//LOGICA DE RANDOM PARA CAPA DE ESTRELLAS
+//LOGICA DE RANDOM PARA CAPA DE ESTRELLAS.
 const COLORS = ["#fff2", "#fff4", "#fff7", "#fff", "#fff"]
 
 const generateSpaceLayer = (size, selector, totalStarts, duration) => {
@@ -22,7 +22,7 @@ generateSpaceLayer("3px", ".space-3" , 25, "10s")
 
 //VANEGADOR 
 function queHacer(){
-        alert("<!>Solo recuerda los cuadros que cambiaron de color y se movieron. ¡DESCUBRE que hay en ellos haciendo click! (POSATE ENCIMA DE UN CUADRO Y CONFIA EN LOS BORDER VERDES)..");
+        alert("<!>Solo recuerda los cuadros que cambiaron de color y se movieron. ¡DESCUBRE que hay en ellos posandote y conoce detalles haciendo click!");
 }
 
 function proposito(){
@@ -81,7 +81,22 @@ function verificar11() {
     alert("Galaxia de Andrómeda (M31): Es la galaxia más grande del Grupo Local, que también incluye a la Vía Láctea. Es una galaxia espiral similar a la Vía Láctea y se encuentra a unos 2.5 millones de años luz de distancia. En el futuro, se espera que Andrómeda y la Vía Láctea colisionen y se fusionen en una sola galaxia.");
 };
 
-
 function verificar12() {
     alert("Vía Láctea: Nuestra galaxia, en la que se encuentra el sistema solar. Es una galaxia espiral barrada que contiene entre 200 y 400 mil millones de estrellas, incluido nuestro Sol. La Vía Láctea tiene varios brazos espirales, y el sistema solar se encuentra en uno de ellos, llamado el Brazo de Orión.");
+};
+
+function verificar13() {
+    alert("Galaxia del Triángulo (M33): También conocida como Messier 33, es otra galaxia espiral en el Grupo Local. Es más pequeña que la Vía Láctea y Andrómeda y se encuentra a unos 3 millones de años luz de distancia. Es una de las galaxias más lejanas que se pueden ver a simple vista desde la Tierra en condiciones ideales.");
+};
+
+function verificar14() {
+    alert("Galaxia del Sombrero (M104): Es una galaxia espiral situada a unos 28 millones de años luz de distancia en la constelación de Virgo. Su distintiva forma de \"sombrero\" es el resultado de un halo central de estrellas y polvo que rodea el núcleo brillante de la galaxia.");
+};
+
+function verificar15() {
+    alert("Galaxia del Remolino (M51): También conocida como la Galaxia del Remolino, es una galaxia espiral situada a unos 23 millones de años luz de distancia en la constelación de Canes Venatici. Es conocida por su interacción con una galaxia satélite más pequeña, que ha causado la formación de nuevas estrellas en sus brazos espirales.");
+};
+
+function verificar16() {
+    alert("La basura espacial, también conocida como desechos espaciales o chatarra espacial, se refiere a los objetos artificiales creados por humanos que se encuentran en órbita alrededor de la Tierra y que ya no tienen un propósito útil. Esto incluye desde satélites en desuso y etapas de cohetes hasta fragmentos de colisiones y explosiones en órbita. La basura espacial es un problema creciente debido al aumento de la actividad espacial y la acumulación de objetos en órbita.");
 };

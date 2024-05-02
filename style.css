@@ -12,7 +12,7 @@
     border-radius: 50%;
     transform: scale(4.5);
     transition: 1s;
-    border-color:green;
+    border-color:white;
 }
 /**TIERRA**/
 .cuadradoClickTIERRA {
@@ -29,7 +29,7 @@
     border-radius: 50%;
     transform: scale(4.5);
     transition: 1s;
-    border-color:green;
+    border-color:white;
     background-image: url(https://i.pinimg.com/736x/e9/70/f6/e970f64f231f8aef9eba8f63814a6f35.jpg) ;
     background-size: cover;
 }
@@ -49,7 +49,7 @@
     border-radius: 50%;
     transform: scale(4.5);
     transition: 1s;
-    border-color:green;
+    border-color:white;
     background-image: url(https://i.pinimg.com/564x/7b/39/ef/7b39ef2a94a38c06ae4da5a406a693a2.jpg) ;
     background-size: cover;
 }
@@ -68,7 +68,7 @@
     border-radius: 50%;
     transform: scale(4.5);
     transition: 1s;
-    border-color:green;
+    border-color:white;
     background-image: url(https://i.pinimg.com/564x/2c/fc/bd/2cfcbd70b36129aced180d3c69b32d3c.jpg) ;
     background-size: cover;
 }
@@ -87,7 +87,7 @@
     border-radius: 50%;
     transform: scale(4.5);
     transition: 1s;
-    border-color:green;
+    border-color:white;
     background-image: url(https://i.pinimg.com/564x/c2/92/66/c29266e0df1ac1121b42102e326777c9.jpg) ;
     background-size: cover;
 }
@@ -106,7 +106,7 @@
     border-radius: 50%;
     transform: scale(4.5);
     transition: 1s;
-    border-color:green;
+    border-color:white;
     background-image: url(https://media.biobiochile.cl/wp-content/uploads/2015/01/andromeda.jpg) ;
     background-size: cover;
 }
@@ -125,7 +125,7 @@
     border-radius: 50%;
     transform: scale(4.5);
     transition: 1s;
-    border-color:green;
+    border-color:white;
     background-image: url(https://www.ngenespanol.com/wp-content/uploads/2024/01/asi-es-el-corazon-de-la-via-lactea-nuestra-galaxia.jpg) ;
     background-size: cover;
 }
@@ -144,7 +144,7 @@
     border-radius: 50%;
     transform: scale(4.5);
     transition: 1s;
-    border-color:green;
+    border-color:white;
     background-image: url(https://i.pinimg.com/564x/5f/c7/3d/5fc73dbc85e18d7164f51e6d408548cd.jpg) ;
     background-size: cover;
 }
@@ -163,7 +163,7 @@
     border-radius: 50%;
     transform: scale(4.5);
     transition: 1s;
-    border-color:green;
+    border-color:white;
     background-image: url(https://i.pinimg.com/564x/7e/2d/1e/7e2d1ed54330874ae07f2810de8a31e4.jpg) ;
     background-size: cover;
 }
@@ -182,7 +182,7 @@
     border-radius: 50%;
     transform: scale(4.5);
     transition: 1s;
-    border-color:green;
+    border-color:white;
     background-image: url(https://i.pinimg.com/564x/cb/46/0f/cb460fe0a9f09cb05ba8a8cd452ecb44.jpg) ;
     background-size: cover;
 }
@@ -201,7 +201,7 @@
     border-radius: 50%;
     transform: scale(4.5);
     transition: 1s;
-    border-color:green;
+    border-color:white;
     background-image: url(https://i.pinimg.com/736x/d8/06/f9/d806f9ab1abda97f806902c40c085155.jpg) ;
     background-size: cover;
 }
@@ -220,7 +220,7 @@
     border-radius: 50%;
     transform: scale(4.5);
     transition: 1s;
-    border-color:green;
+    border-color:white;
     background-image: url(https://i.pinimg.com/564x/19/3e/71/193e717cc465e9790a3fd80269b3cfb4.jpg) ;
     background-size: cover;
 }
@@ -239,7 +239,7 @@
     border-radius: 50%;
     transform: scale(4.5);
     transition: 1s;
-    border-color:green;
+    border-color: white;
     background-image: url(https://i.pinimg.com/564x/68/ce/7e/68ce7e9054d5bb9a5f52361afa7e8564.jpg) ;
     background-size: cover;
 }
@@ -258,13 +258,102 @@
     border-radius: 50%;
     transform: scale(4.5);
     transition: 1s;
-    border-color:green;
+    border-color:white;
     background-image: url(https://i.pinimg.com/564x/3a/2f/5d/3a2f5d54e0a7cdde17cc6ee61d2d5f78.jpg) ;
     background-size: cover;
 }
+/**GALAXIA TRIANGULO**/
+.cuadradoClickTRIANGULO{
+    width: 80px; 
+    height: 80px; 
+    border: 1px solid;
+    border-color: rgb(5, 213, 228);
+    animation-name: cambiar-color-animacion;
+    animation-duration: 2s;
 
+}
 
+.cuadradoClickTRIANGULO:hover{
+    border-radius: 50%;
+    transform: scale(4.5);
+    transition: 1s;
+    border-color:white;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/0/0d/Messier_33.jpg) ;
+    background-size: cover;
+}
+/**GALAXIA SOMBRERO**/
+.cuadradoClickSOMBRERO{
+    width: 80px; 
+    height: 80px; 
+    border: 1px solid;
+    border-color: rgb(5, 213, 228);
+    animation-name: cambiar-color-animacion;
+    animation-duration: 2s;
 
+}
+
+.cuadradoClickSOMBRERO:hover{
+    border-radius: 50%;
+    transform: scale(4.5);
+    transition: 1s;
+    border-color:white;
+    background-image: url(https://cdn.mos.cms.futurecdn.net/MwAtZXejfyLn75472eoVbE.jpg) ;
+    background-size: cover;
+}
+/**GALAXIA REMOLINO**/
+.cuadradoClickREMOLINO{
+    width: 80px; 
+    height: 80px; 
+    border: 1px solid;
+    border-color: rgb(5, 213, 228);
+    animation-name: cambiar-color-animacion;
+    animation-duration: 2s;
+
+}
+
+.cuadradoClickREMOLINO:hover{
+    border-radius: 50%;
+    transform: scale(4.5);
+    transition: 1s;
+    border-color:white;
+    background-image: url(https://img.europapress.es/fotoweb/fotonoticia_20100615164838_1200.jpg) ;
+    background-size: cover;
+}
+/**BASURA ESPACIAL**/
+.cuadradoClickBASURA{
+    width: 80px; 
+    height: 80px; 
+    border: 1px solid;
+    border-color: rgb(5, 213, 228);
+    animation-name: cambiar-color-animacion;
+    animation-duration: 2s;
+
+}
+
+.cuadradoClickBASURA:hover{
+    border-radius: 50%;
+    transform: scale(4.5);
+    transition: 1s;
+    border-color:white;
+    background-image: url(https://s1.eestatic.com/2018/02/16/actualidad/actualidad_285490014_130122122_1706x960.jpg) ;
+    background-size: cover;
+}
+
+/*PARA CUADRADOS SIN OBJETOS*/
+.cuadradoNoClick{
+    width: 80px; 
+    height: 80px; 
+    border: 2px solid;
+    border-color: rgb(5, 213, 228);
+}
+.cuadradoNoClick:hover{
+    border-radius: 50%;
+    transform: scale(1.5);
+    transition: 1s;
+    border-color:red
+}
+
+/*PARA animacion INICIO*/ 
 @keyframes cambiar-color-animacion {
     from{
         background-color: red;
@@ -275,18 +364,7 @@
     }
 }
 
-.cuadradoNoClick{
-    width: 80px; 
-    height: 80px; 
-    border: 1px solid;
-    border-color: rgb(5, 213, 228);
-}
-.cuadradoNoClick:hover{
-    border-radius: 50%;
-    transform: scale(1.5);
-    transition: 1s;
-    border-color:red
-}
+
 
 
 /* PARA ESTRELLAS */
@@ -297,7 +375,7 @@ body{
 .container{
     background-image: linear-gradient(#051327, #000);
     inset: 0;
-    margin-top: 0px;
+    border: 1px solid;
 }
 
 .space{
