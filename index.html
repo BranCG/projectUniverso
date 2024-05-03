@@ -12,11 +12,19 @@
             <div class="container-fluid d-flex justify-content-center ">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link btn btn-outline-info text-light somos" onclick="queHacer()"><b>¿QUE HACER?</b></a>
+                        <button onclick="mostrarDescripcion('<!>Solo navega por el universo, haz click en los recuadros y alimentate de conocimiento.')"><span><b>¿Que hacer?</b></span></button>
+                        <div id="descripcion" class="modal">
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <p id="descripcion-texto"></p>
+                        </div>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link btn btn-outline-info text-light terminos" onclick="proposito()"><b>PROPOSITO</b></a>
-                    </li>
+                    <button onclick="mostrarDescripcion('<!>Este es un proyecto educativo sobre el espacio para practicar habilidades en HTML, CSS y JS. Esta plataforma está diseñada para que los niños puedan aprender de forma interactiva sobre planetas, estrellas, galaxias y más. Aunque es un sistema básico, me ha permitido profundizar en la programación frontend y crear una experiencia educativa y divertida para los más niños y jovenes.')"><span><b>Proposito</b></span></button>
+                        <div id="descripcion" class="modal">
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <p id="descripcion-texto"></p>
+                        </div>
                 </ul>
             </div>
     </nav>
@@ -25,18 +33,18 @@
             <div class="space space-2"></div>
             <div class="space space-3"></div>
             <div class="row p-5" style="margin-top: 120px; margin-left: 40px; margin-bottom: 100px;">
-                    <div id="TIERRA" class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 generarCapaEspacioTIERRA" onclick="verificar()"></div>
+                    <div id="TIERRA" class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 generarCapaEspacioTIERRA" onclick="mostrarDescripcion('La Tierra: Nuestro hogar, el único planeta conocido que alberga vida. Tiene una atmósfera única que permite la existencia de agua en estado líquido, un requisito clave para la vida tal como la conocemos.')"></div>
                     <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 cuadradoNoClick"></div>
                     <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 cuadradoNoClick"></div>
                     <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 cuadradoNoClick"></div>
-                    <div id="MARTE" class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 generarCapaEspacioMARTE" onclick="verificar3()"></div>
+                    <div id="MARTE" class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 generarCapaEspacioMARTE" onclick="mostrarDescripcion('Marte: Conocido como el planeta rojo debido a su color característico, Marte tiene una atmósfera delgada y fría. Ha capturado la imaginación de las personas como un lugar donde podría existir vida pasada o presente.')"></div>
                     <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 cuadradoNoClick"></div>
                     <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 cuadradoNoClick"></div>
-                    <div id="MERCURIO" class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 generarCapaEspacioMERCURIO" onclick="verificar1()"></div>
+                    <div id="MERCURIO" class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 generarCapaEspacioMERCURIO" onclick="mostrarDescripcion('Mercurio: El planeta más cercano al Sol y el más pequeño del sistema solar. Tiene una superficie rocosa y está cubierto de cráteres. Su temperatura varía enormemente debido a la falta de atmósfera para retener el calor.')"></div>
                     <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 cuadradoNoClick"></div>
                     <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 cuadradoNoClick"></div>
                     <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 cuadradoNoClick"></div>
-                    <div id="VENUS" class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 generarCapaEspacioVENUS" onclick="verificar2()"></div>
+                    <div id="VENUS" class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 generarCapaEspacioVENUS" onclick="mostrarDescripcion('Venus: Conocido como el planeta hermano de la Tierra debido a su tamaño y composición similares, aunque su atmósfera es extremadamente densa y está compuesta principalmente de dióxido de carbono, lo que crea un efecto invernadero descontrolado y una temperatura de superficie extremadamente alta.')"></div>
                     <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 cuadradoNoClick"></div>
                     <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 cuadradoNoClick"></div>
                     <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 cuadradoNoClick"></div>
@@ -49,15 +57,15 @@
                     <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 cuadradoNoClick"></div>
                     <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 cuadradoNoClick"></div>
                     <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 cuadradoNoClick"></div>
-                    <div id="VIALACTEA" class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 generarCapaEspacioVIALACTEA" onclick="verificar12()"></div>
+                    <div id="VIALACTEA" class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 generarCapaEspacioVIALACTEA" onclick="mostrarDescripcion('Vía Láctea: Nuestra galaxia, en la que se encuentra el sistema solar. Es una galaxia espiral barrada que contiene entre 200 y 400 mil millones de estrellas, incluido nuestro Sol. La Vía Láctea tiene varios brazos espirales, y el sistema solar se encuentra en uno de ellos, llamado el Brazo de Orión.')"></div>
                     <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 cuadradoNoClick"></div>
-                    <div id="GALAXIAANDROMEDA" class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 generarCapaEspacioGALAXIAANDROMEDA" onclick="verificar11()"></div>
+                    <div id="GALAXIAANDROMEDA" class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 generarCapaEspacioGALAXIAANDROMEDA" onclick="mostrarDescripcion('Galaxia de Andrómeda (M31): Es la galaxia más grande del Grupo Local, que también incluye a la Vía Láctea. Es una galaxia espiral similar a la Vía Láctea y se encuentra a unos 2.5 millones de años luz de distancia. En el futuro, se espera que Andrómeda y la Vía Láctea colisionen y se fusionen en una sola galaxia.')"></div>
                     <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 cuadradoNoClick"></div>
                     <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 cuadradoNoClick"></div>
                     <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 cuadradoNoClick"></div>
                     <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 cuadradoNoClick"></div>
                     <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 cuadradoNoClick"></div>
-                    <div id="ESTRELLAS" class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 generarCapaEspacioESTRELLAS" onclick="verificar5()"></div>
+                    <div id="ESTRELLAS" class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 generarCapaEspacioESTRELLAS" onclick="mostrarDescripcion('Las estrellas: Las estrellas son gigantescas esferas de gas caliente que brillan con luz propia debido a la fusión nuclear en sus núcleos. Son los bloques de construcción fundamentales del universo, ya que generan y dispersan elementos químicos vitales para la formación de planetas, vida y todo lo que nos rodea. Las estrellas vienen en una variedad de tamaños, colores y edades, desde las enanas rojas más pequeñas y frías hasta las supergigantes azules más grandes y calientes. A lo largo de sus vidas, las estrellas experimentan cambios dramáticos, desde su nacimiento en nubes de gas y polvo hasta su eventual muerte en forma de enanas blancas, estrellas de neutrones o incluso agujeros negros, dejando un legado cósmico que perdura a lo largo de las edades.')"></div>
                     <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 cuadradoNoClick"></div>
                     <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 cuadradoNoClick"></div>
                     <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 cuadradoNoClick"></div>
@@ -65,50 +73,50 @@
                     <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 cuadradoNoClick"></div>
                     <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 cuadradoNoClick"></div>
                     <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 cuadradoNoClick"></div>
-                    <div id="SATURNO" class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 generarCapaEspacioSATURNO" onclick="verificar6()"></div>
+                    <div id="SATURNO" class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 generarCapaEspacioSATURNO" onclick="mostrarDescripcion('Saturno: Conocido por sus impresionantes anillos, Saturno es otro gigante gaseoso. Sus anillos están compuestos principalmente de partículas de hielo y roca, y son uno de los espectáculos más impresionantes del sistema solar.')"></div>
                     <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 cuadradoNoClick"></div>
                     <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 cuadradoNoClick"></div>
                     <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 cuadradoNoClick"></div>
                     <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 cuadradoNoClick"></div>
                     <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 cuadradoNoClick"></div>
-                    <div id="galaxiaTRIANGULO" class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 generarCapaEspacioTRIANGULO" onclick="verificar13()"></div>
+                    <div id="galaxiaTRIANGULO" class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 generarCapaEspacioTRIANGULO" onclick="mostrarDescripcion('Galaxia del Triángulo (M33): También conocida como Messier 33, es otra galaxia espiral en el Grupo Local. Es más pequeña que la Vía Láctea y Andrómeda y se encuentra a unos 3 millones de años luz de distancia. Es una de las galaxias más lejanas que se pueden ver a simple vista desde la Tierra en condiciones ideales.')"></div>
                     <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 cuadradoNoClick"></div>
                     <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 cuadradoNoClick"></div>
                     <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 cuadradoNoClick"></div>
-                    <div id="URANO" class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 generarCapaEspacioURANO" onclick="verificar7()"></div>
+                    <div id="URANO" class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 generarCapaEspacioURANO" onclick="mostrarDescripcion('Urano: Un gigante de hielo con un eje de rotación inclinado casi 90 grados respecto a su plano orbital, lo que hace que gire de lado. Tiene anillos y una serie de lunas interesantes.')"></div>
                     <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 cuadradoNoClick"></div>
                     <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 cuadradoNoClick"></div>
                     <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 cuadradoNoClick"></div>
                     <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 cuadradoNoClick"></div>
-                    <div id="REMOLINO" class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 generarCapaEspacioREMOLINO" onclick="verificar14()"></div>
+                    <div id="REMOLINO" class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 generarCapaEspacioREMOLINO" onclick="mostrarDescripcion('Galaxia del Remolino (M51): También conocida como la Galaxia del Remolino, es una galaxia espiral situada a unos 23 millones de años luz de distancia en la constelación de Canes Venatici. Es conocida por su interacción con una galaxia satélite más pequeña, que ha causado la formación de nuevas estrellas en sus brazos espirales.')"></div>
                     <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 cuadradoNoClick"></div>
                     <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 cuadradoNoClick"></div>
                     <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 cuadradoNoClick"></div>
                     <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 cuadradoNoClick"></div>
-                    <div id="NEPTUNO" class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 generarCapaEspacioNEPTUNO" onclick="verificar8()"></div>
+                    <div id="NEPTUNO" class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 generarCapaEspacioNEPTUNO" onclick="mostrarDescripcion('Neptuno: El planeta más alejado del Sol, es otro gigante de hielo. Tiene vientos extremadamente rápidos y una gran mancha oscura similar a la mancha roja de Júpiter.')"></div>
                     <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 cuadradoNoClick"></div>
                     <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 cuadradoNoClick"></div>
                     <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 cuadradoNoClick"></div>
                     <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 cuadradoNoClick"></div>
-                    <div id="SATELITE" class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 generarCapaEspacioSATELITE" onclick="verificar10()"></div>
+                    <div id="SATELITE" class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 generarCapaEspacioSATELITE" onclick="mostrarDescripcion('Los satélites, tanto naturales como artificiales, juegan un papel crucial en nuestra comprensión y exploración del espacio. Desde la Luna que ilumina nuestras noches hasta los satélites de comunicación que nos conectan globalmente, estos cuerpos en órbita nos ofrecen una ventana al universo y nos permiten realizar avances tecnológicos y científicos que de otra manera serían imposibles. Su presencia en el espacio nos recuerda la vastedad y la belleza de nuestro cosmos, inspirándonos a seguir explorando y descubriendo los misterios del universo.')"></div>
                     <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 cuadradoNoClick"></div>
                     <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 cuadradoNoClick"></div>
                     <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 cuadradoNoClick"></div>
-                    <div id="SOMBRERO" class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 generarCapaEspacioSOMBRERO" onclick="verificar14()"></div>
+                    <div id="SOMBRERO" class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 generarCapaEspacioSOMBRERO" onclick="mostrarDescripcion('Galaxia del Sombrero (M104): Es una galaxia espiral situada a unos 28 millones de años luz de distancia en la constelación de Virgo. Su distintiva forma de sombrero es el resultado de un halo central de estrellas y polvo que rodea el núcleo brillante de la galaxia.')"></div>
                     <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 cuadradoNoClick"></div>
                     <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 cuadradoNoClick"></div>
                     <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 cuadradoNoClick"></div>
                     <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 cuadradoNoClick"></div>
                     <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 cuadradoNoClick"></div>
-                    <div id="JUPITER" class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 generarCapaEspacioJUPITER" onclick="verificar4()"></div>
+                    <div id="JUPITER" class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 generarCapaEspacioJUPITER" onclick="mostrarDescripcion('Júpiter: El planeta más grande del sistema solar, es un gigante gaseoso compuesto principalmente de hidrógeno y helio. Tiene una gran mancha roja, una tormenta gigante que ha estado activa durante siglos.')"></div>
                     <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 cuadradoNoClick"></div>
                     <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 cuadradoNoClick"></div>
                     <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 cuadradoNoClick"></div>
                     <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 cuadradoNoClick"></div>
-                    <div id="SOL" class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 generarCapaEspacioSOL" onclick="verificar9()"></div>
+                    <div id="SOL" class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 generarCapaEspacioSOL" onclick="mostrarDescripcion('El Sol: En el vasto universo, el sol se alza como una estrella única y poderosa, irradiando luz y calor a través del espacio vacío. Su presencia es la fuente de vida en nuestro sistema solar, proporcionando energía a todos los planetas que lo orbitan. Con su brillante resplandor, el sol nos recuerda la inmensidad y la belleza del cosmos, y nos invita a reflexionar sobre nuestro lugar en el universo.')"></div>
                     <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 cuadradoNoClick"></div>
                     <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 cuadradoNoClick"></div>
-                    <div id="BASURA" class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 generarCapaEspacioBASURA" onclick="verificar16()"></div>
+                    <div id="BASURA" class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 generarCapaEspacioBASURA" onclick="mostrarDescripcion('La basura espacial, también conocida como desechos espaciales o chatarra espacial, se refiere a los objetos artificiales creados por humanos que se encuentran en órbita alrededor de la Tierra y que ya no tienen un propósito útil. Esto incluye desde satélites en desuso y etapas de cohetes hasta fragmentos de colisiones y explosiones en órbita. La basura espacial es un problema creciente debido al aumento de la actividad espacial y la acumulación de objetos en órbita.')""></div>
 
                     
                     
